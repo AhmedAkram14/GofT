@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Cinzel:wght@400;500;600;700;800;900&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Game Of Thrones Character Api</h1>
+    <div class="All container" >
+        <div class="table">
+            <table>
+                <!-- <caption>Character List</caption> -->
+                <thead class="head">
+                    <th class="id" style="min-width: 101px">Charachter ID</th>
+                    <th class="head-name">Name</th>
+                    <th class="head-img">Img</th>
+                </thead>
+                <tbody class="tbody">
+
+                </tbody>
+                <tfoot class="footer">
+                    <tr>
+                    <td class="items" colspan="2">Items per page <select name="" id="" >
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                    </select>
+                    <td class="btn"><i id="next" class="fa-sharp fa-solid fa-arrow-left"></i>
+                        <i id="pre" class="fa-sharp fa-solid fa-arrow-right"></i></td>
+                
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="back-ground">
+            <i class="fa-solid fa-xmark"></i>
+            <h2 class="ch">Character Details</h2>
+            <div class="info"></div>
+        </div>
+    </div>
+    <div class="cover"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
